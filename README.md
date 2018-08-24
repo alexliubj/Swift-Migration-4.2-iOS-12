@@ -2,10 +2,17 @@ There are usually two ways to migrate your project from an older version of swif
 First of all, you should download and install the latest Xcode either from AppStore or Apple Developer center.
 Secondly, you have an option of either from manual mode or let Xcode do it for you.
 
+![ ](https://github.com/alexliubj/Swift-Migration-4.2/blob/master/sc01.jpg)
+
 Change it from your project setting -> `Swift Language Version`, from the dropdown, select the latest version of Swift, like 4.2. Then compile/build your code, fix each warning/error one by one with some hint for Xcode like the following.
+
+![ ](https://github.com/alexliubj/Swift-Migration-4.2/blob/master/sc02.jpg)
+
+![ ](https://github.com/alexliubj/Swift-Migration-4.2/blob/master/sc03.jpg)
 
 Moreover, XCode should also be able to migrate all your old version swift code into new version but somehow, we always have third party libraries or some other dependencies in the project. From my personal experience it never worked for me for a single time when projects are more complicated or with a huge code base. You may still have to go back to the manual mode again.
 
+![ ](https://github.com/alexliubj/Swift-Migration-4.2/blob/master/sc04.jpg)
 
 I've listed all migration issues I met when I was migrating from Swift 4 to 4.2 below. Please feel free to add anything I'm missing with your Pull Requests and for sure there would be a lot. With this document I hope it will help user with their migrations go smoothly and it would also be a good reference to when reviewing legacy code.
 

@@ -179,6 +179,12 @@ I've listed all migration issues I met when I was migrating from Swift 4 to 4.2 
 |func `bringSubview`(toFront view: UIView)|func `bringSubviewToFront`(_ view: UIView)|
 | UIViewAnimationOptions | UIView.AnimationOptions()|
 
+| Swift 4 | Swift 4.2 |
+| --- | --- |
+|kCATransitionPush|CATransitionType.push|
+|kCATransitionFromBottom | CATransitionSubtype.fromBottom |
+
+
 ## Foundation
 
 ### NSAttributedString
